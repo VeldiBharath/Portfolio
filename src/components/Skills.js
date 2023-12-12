@@ -71,48 +71,66 @@ export const Skills = () => {
                         <td>NodeJS</td>
                       </tr>
                       <tr>
-                        <td>ExpressJS</td>
+                        <td>MEAN STACK</td>
                       </tr>
                       <tr>
-                        <td>ReactJS</td>
+                        <td>MERN STACK</td>
                       </tr>
                       <tr>
-                        <td>Angular</td>
+                        <td>RESTful API's</td>
                       </tr>
                       <tr>
-                        <td>HTML</td>
+                        <td>Web Security</td>
                       </tr>
                       <tr>
-                        <td>CSS</td>
+                        <td>Web Testing</td>
                       </tr>
                       <tr>
                         <td>Bootstrap</td>
                       </tr>
                       <tr>
+                        <td>Tailwind CSS</td>
+                      </tr>
+                      <tr>
                         <td>JQuery</td>
                       </tr>
                       <tr>
-                        <td>GIT</td>
+                        <td>Render/Heroku</td>
                       </tr>
                       <tr>
-                        <td>DOM</td>
-                      </tr>
-                      <tr>
-                        <td rowspan="2">Databases</td>
+                        <td rowspan="3">Databases</td>
                         <td>MySQL</td>
                       </tr>
                       <tr>
                         <td>MongoDB</td>
                       </tr>
                       <tr>
-                        <td rowspan="7">Tools and DataScience</td>
-                        <td>Machine Learning</td>
+                        <td>Database Design and Managemen</td>
                       </tr>
                       <tr>
-                        <td>AWS</td>
+                        <td rowspan="14">Tools and DataScience</td>
+                        <td>Machine Learning Algorithms</td>
                       </tr>
                       <tr>
-                        <td>Postman</td>
+                        <td>Natural Language Processing(NLP)</td>
+                      </tr>
+                      <tr>
+                        <td>Large Language Models(LLMs)</td>
+                      </tr>
+                      <tr>
+                        <td>ChatBots</td>
+                      </tr>
+                      <tr>
+                        <td>Data Visualization</td>
+                      </tr>
+                      <tr>
+                        <td>Data Engineering</td>
+                      </tr>
+                      <tr>
+                        <td>Amazon Web Services(AWS)</td>
+                      </tr>
+                      <tr>
+                        <td>PostMan</td>
                       </tr>
                       <tr>
                         <td>Nodemon</td>
@@ -124,7 +142,19 @@ export const Skills = () => {
                         <td>Mongoose</td>
                       </tr>
                       <tr>
-                        <td>WebPack</td>
+                        <td>Cloud Computing</td>
+                      </tr>
+                      <tr>
+                        <td>DevOps</td>
+                      </tr>
+                      <tr>
+                        <td>Docker</td>
+                      </tr>
+                      
+
+                      <tr>
+                        <td rowspan="7">Algortithms and DataStructures</td>
+                        <td><a href="https://github.com/VeldiBharath/AlgorithmsandDataStructures/tree/main" >Assimilation</a></td>
                       </tr>
                     </tbody>
                   </table>
@@ -137,11 +167,19 @@ export const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Image" />
+                  <h5>Algorithms and DataStructures</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
                   <h5>Full Stack Development</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
                   <h5>Python</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>DevOps</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
