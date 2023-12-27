@@ -78,17 +78,19 @@ export const Projects = () => {
                 <h2>Professional Life</h2>
                 
     <section class="container">
-        <h3 class="text-center">DevOps Experience at Amazon</h3>
+        <h3 class="text-center">AMAZON FTE - DevOps</h3>
+        <div>
         <p>
             I have substantial experience in DevOps roles at Amazon, contributing to the development
             of an application for log analysis using AWS cloud services. This involved managing risks, resolving bugs,
             and handling on-call responsibilities.
         </p>
+        </div>
     </section>
 
     
     <section class="container">
-        <h3 class="text-center">DevOps Internship and Previous Roles</h3>
+        <h3 class="text-center">AMAZON Internship and Previous Roles</h3>
         <p>
             Additionally, as a DevOps Intern, I implemented and maintained CI/CD pipelines, reduced
             incident response time, and addressed high-priority risks during on-call duties. In previous roles at Esportz
