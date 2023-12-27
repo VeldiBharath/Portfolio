@@ -37,7 +37,7 @@ export const Skills = () => {
               <h2>Skills</h2>
               <p>
                 <div class="container table-responsive mt-5 rounded">
-                  <table class="table table-bordered text-light">
+                  <table class="table table-bordered text-light table-striped">
                     <thead class="thead-light">
                       <tr class="table-light">
                         <th>Category</th>
@@ -46,7 +46,7 @@ export const Skills = () => {
                     </thead>
                     <tbody>
                       <tr>
-                        <td rowspan="6" class="font-weight-bold">
+                        <td rowspan="6" class="font-weight-bold align-middle">
                           Programming Languages
                         </td>
                         <td>Python</td>
@@ -67,7 +67,11 @@ export const Skills = () => {
                         <td>C</td>
                       </tr>
                       <tr>
-                        <td rowspan="10">Web Technologies</td>
+                        <td rowspan="1">Algortithms and DataStructures</td>
+                        <td><a href="https://github.com/VeldiBharath/AlgorithmsandDataStructures/tree/main/DSA" >Assimilation</a></td>
+                      </tr> 
+                      <tr>
+                        <td rowspan="10" class ="align-middle">Web Technologies</td>
                         <td>NodeJS</td>
                       </tr>
                       <tr>
@@ -98,17 +102,17 @@ export const Skills = () => {
                         <td>Render/Heroku</td>
                       </tr>
                       <tr>
-                        <td rowspan="3">Databases</td>
+                        <td rowspan="3" class ="align-middle">Databases</td>
                         <td>MySQL</td>
                       </tr>
                       <tr>
                         <td>MongoDB</td>
                       </tr>
                       <tr>
-                        <td>Database Design and Managemen</td>
+                        <td>Database Design and Management</td>
                       </tr>
                       <tr>
-                        <td rowspan="14">Tools and DataScience</td>
+                        <td rowspan="14" class ="align-middle">Tools and DataScience</td>
                         <td>Machine Learning Algorithms</td>
                       </tr>
                       <tr>
@@ -148,14 +152,54 @@ export const Skills = () => {
                         <td>DevOps</td>
                       </tr>
                       <tr>
-                        <td>Docker</td>
+                        <td>Docker </td>
                       </tr>
-                      
 
                       <tr>
-                        <td rowspan="7">Algortithms and DataStructures</td>
-                        <td><a href="https://github.com/VeldiBharath/AlgorithmsandDataStructures/tree/main" >Assimilation</a></td>
+                        <td rowspan="7" class ="align-middle">Auxiliary Skills</td>
+                        <td>OOPS</td>
+                      </tr>        
+                      <tr>
+                        <td>Operating Systems</td>
+                      </tr>  
+                      <tr>
+                        <td>Computer Networking</td>
                       </tr>
+                      <tr>
+                        <td>Computer Architecture</td>
+                      </tr> 
+                      <tr>
+                        <td>Distributed Systems</td>
+                      </tr> 
+                      <tr>
+                        <td>MS Office</td>
+                      </tr> 
+                      <tr>
+                        <td>Aptitude</td>
+                      </tr>   
+
+                      <tr>
+                        <td rowspan="7" class ="align-middle">Soft Skills</td>
+                        <td>Communication</td>
+                      </tr>
+                      <tr>
+                        <td>Teamwork</td>
+                      </tr> 
+                      <tr>
+                        <td>Problem-solving</td>
+                      </tr> 
+                      <tr>
+                        <td>Adaptability</td>
+                      </tr> 
+                      <tr>
+                        <td>Time Management</td>
+                      </tr> 
+                      <tr>
+                        <td>Critical Thinking</td>
+                      </tr> 
+                      <tr>
+                        <td>Leadership</td>
+                      </tr> 
                     </tbody>
                   </table>
                 </div>

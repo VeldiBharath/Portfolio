@@ -12,7 +12,7 @@ export const Footer = () => {
         <Row className="align-items-center">
           <MailchimpForm />
           <Col size={12} sm={6}>
-            <img
+            <img id = "futeng"
               src="https://www.futureengineers.org/images/about/Future%20Engineers%20Logo%20Transparent.png"
               alt="Logo"
             />

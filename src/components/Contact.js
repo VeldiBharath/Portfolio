@@ -52,9 +52,9 @@ export const Contact = () => {
   </div>
   <div class="card-body">
     <h4 class="card-title">Bharath Sri Vardhan Veldi</h4>
-    <p class="card-text">Email1 : bhaveldi@iu.edu</p>
-    <p class="card-text">Email2 : bharathveldiusa@gmail.com</p>
-    <p class="card-text">PhoneNo : +1 930-333-4106</p>
+    <p class="card-text"><strong>Email1 : </strong>bhaveldi@iu.edu</p>
+    <p class="card-text"><strong>Email2 : </strong>bharathveldiusa@gmail.com</p>
+    <p class="card-text"><strong>PhnNo : </strong>+1 930-333-4106</p>
     <img class="w-25 p-3 rounded-circle"src = {contactImg} ></img>
     <div class = "mt-5">
     <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="btn btn-primary">Email Me</a>
