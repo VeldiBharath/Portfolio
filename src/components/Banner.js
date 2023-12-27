@@ -12,11 +12,10 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [
     "Full Stack Developer",
-    "Data Engineer",
-    "Data Analyst",
-    "ML Engineer",
+    "AI and ML Engineer",
+    "Data Engineer"
   ];
-  const period = 2000;
+  const period = 500;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -49,7 +48,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(200);
     } else {
       setIndex((prevIndex) => prevIndex + 1);
     }
@@ -73,7 +72,7 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Full Stack Developer", "Data Engineer", "Data Analyst", "ML Engineer" ]'
+                      data-rotate='[ "Full Stack Developer", "AI and ML Engineer", "Data Engineer"]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
