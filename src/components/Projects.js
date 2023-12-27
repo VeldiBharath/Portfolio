@@ -79,13 +79,12 @@ export const Projects = () => {
                 
     <section class="container">
         <h3 class="text-center">AMAZON FTE - DevOps</h3>
-        <div>
         <p>
             I have substantial experience in DevOps roles at Amazon, contributing to the development
             of an application for log analysis using AWS cloud services. This involved managing risks, resolving bugs,
             and handling on-call responsibilities.
         </p>
-        </div>
+        
     </section>
 
     

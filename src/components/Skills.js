@@ -36,7 +36,7 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                <div class="container mt-5 rounded">
+                <div class="container table-responsive mt-5 rounded">
                   <table class="table table-bordered text-light">
                     <thead class="thead-light">
                       <tr class="table-light">
